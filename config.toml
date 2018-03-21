@@ -1,0 +1,63 @@
+## Basic Configuration
+
+baseurl = "https://fiznool.github.io/"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Tom Spencer"
+title = "Tom Spencer"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+# disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Tom Spencer"
+intro = "JavaScript Consultant from Bristol, UK."
+authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "fiznool"
+linkedin = "fiznool"
+twitter = "fiznool"
+stackoverflow = "1171775/tom-spencer"
+email = "tom.spencer@studiozeffa.com"
+
+## Extras
+[params.extra]
+copyright = "© 2018. Tom Spencer. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+hightlightjs = true
+
+## Main Menu
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 100
+    url = "/about/"
+[[menu.main]]
+    name = "Blog"
+    weight = 200
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "Hire Me"
+    identifier = "hire-me"
+    weight = 300
+    url = "/hire-me/"
