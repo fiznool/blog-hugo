@@ -15,9 +15,8 @@ a:hover,
 a:visited,
 a:link
 {
-    text-decoration: none;
-
-    color: #526d7a;
+    text-decoration: underline;
+    color: #966;
 }
 body
 {
@@ -173,10 +172,16 @@ h3.intro
     font-weight: 400;
 
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
-.list-entry-link
+.list-entry hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+a.list-entry-link
 {
+    color: #526d7a;
+    text-decoration: none;
     padding: 0;
 }
 .main-menu
@@ -189,7 +194,7 @@ h3.intro
     margin-top: 10px;
     margin-bottom: 20px;
 }
-.menu-item
+a.menu-item
 {
     font-family: 'Lato', sans-serif;
     font-size: 24px;

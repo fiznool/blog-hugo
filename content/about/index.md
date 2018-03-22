@@ -20,8 +20,39 @@ If you are interesting in hiring me to work on a web or mobile application, or w
 
 * * *
 
+Testimonials
+------------
+
+Here are a sample of kind words from past and current clients: more testimonials can be found on my [LinkedIn page](https://www.linkedin.com/in/fiznool/).
+
+> Tom is excellent! He teaches our students how to build mobile apps on our coding bootcamp, and has delivered high level, bespoke, technical workshops for our clients. He is extremely personable, professional, reliable and knowledgable and never fails to deliver outstanding work.
+
+> _Pete New, founder at [DevelopMe Training](https://developme.training/)_
+
+<!-- -->
+> Tom is a fantastic full-stack JS developer. He is equally skilled in front-end and server-side work, and will work quickly and thoughtfully, whatever the task. Tom will offer constructive feedback on designs/plans where he has ideas or suggestions. Rather than simply implement blindly, he will think of the objectives and practicalities, and work to develop a solution. I don't often come across developers like this.
+
+> _John Jackson, founder at [Flow XO](https://flowxo.com)_
+
+<!-- -->
+> Tom has worked with Natural Apptitude on a number of projects ranging from mobile app development to work on our backend services. During these contracts Tom has demonstrated a very high level of professionalism and impressed not only with excellent and broad technical skills, but also his soft-skills: fitting in quickly and working well with both colleagues and clients. Overall, Tom has been an excellent member of our team and we would not hesitate in recommending him to others.
+
+> _Joe Woodhouse, founder at [Natural Apptitude](http://www.natural-apptitude.co.uk/)_
+
+* * *
+
 Portfolio
 ---------
+
+### [Háblame Bebé](https://itunes.apple.com/us/app/h%C3%A1blame-beb%C3%A9/id1349793334?mt=8)
+
+A smartphone app to encourage parents to speak to their baby, and develop bilingualism. Created for [iPhone](https://itunes.apple.com/us/app/h%C3%A1blame-beb%C3%A9/id1349793334?mt=8) and [Android](https://play.google.com/store/apps/details?id=org.talkwithmebaby.app&hl=en).
+
+*   I was part of a team that designed and built the app from the ground up, for both iPhone and Android platforms.
+*   Users can monitor their baby's development by tracking words spoken for the first time, in both Spanish and English.
+*   A range of baby milestones are included, indicating the expected stage of development for the baby.
+*   Conversation starters are also available, to encourage a variety of different phrases that can be spoken to the baby.
+*   The app is available in both English and Spanish, and was built using the React Native framework.
 
 ### [Blooms for Bees](https://itunes.apple.com/gb/app/blooms-for-bees/id1194047897?mt=8)
 
@@ -46,15 +77,6 @@ A SaaS platform to connect together existing cloud apps into a 'workflow', passi
 *   Integrated with [Recurly](https://recurly.com) to handle recurring subscription payments.
 *   The client is happy with the progress, implementation and stability of the application. In particular, the test-driven nature has led to no major issues in the field.
 
-### [Torpio](http://torpio.com)
-
-A [micro scripting platform](http://torpio.com) for joining up and extending cloud apps.
-
-*   The project was nearing completion when I was hired to audit the codebase.
-*   It was clear that the app required a rewrite, which the client agreed to.
-*   Static HTML templates were provided, and the responsive web app was built using Backbone.js, consuming a RESTful API.
-*   The client is very happy with [the app](http://torpio.com/app), citing the quick run-time performance and modular codebase as two particularly pleasing aspects of the project.
-
 ### [Top Value](http://mubaloo.com/clients/hp)
 
 A [responsive product catalogue](http://mubaloo.com/clients/hp) for a leading technology brand.
@@ -78,7 +100,7 @@ Community
 
 ### [SWmobile](http://meetup.com/swmobile)
 
-Co-founder and organiser of SWmobile, a mobile-focused tech group based in the South West.
+Co-founder of SWmobile, a mobile-focused tech group based in the South West.
 
 The group meets every 6-8 weeks to discuss mobile design and development. We have held a number of meetups in Bristol and Bath, which are well attended and liked. We attract speakers and sponsors from around the UK and overseas, and plan to grow the group further in the South West.
 
@@ -86,7 +108,7 @@ The group meets every 6-8 weeks to discuss mobile design and development. We hav
 
 Co-founder and organiser of the Bristol branch of [Node School](http://nodeschool.io/), the open source workshops that teach Node.js skills.
 
-The inaugural meetup was held in February 2015 and was a great success. There are now plans underway to run a second session.
+The inaugural meetup was held in February 2015 and was a great success.
 
 * * *
 
@@ -99,7 +121,7 @@ For more details on my past experience, please refer to [my LinkedIn profile](ht
 
 #### April 2013 - Present
 
-Designing, architecting and developing web and mobile applications for a number of clients. [Available for hire](mailto:tom@studiozeffa.com) for your next project.
+Designing, architecting and developing web and mobile applications for a number of clients, and offering training in software development [Available for hire](mailto:tom@studiozeffa.com) for your next project or training course.
 
 ### Head of Mobile Web, [Mubaloo](http://mubaloo.com)
 
@@ -143,21 +165,21 @@ Libraries
 
 All libraries are open source and can be found on [my GitHub profile](http://github.com/fiznool).
 
-### [Backbone.BasicAuth](https://github.com/fiznool/backbone.basicauth)
+### [passport-oauth2-refresh](https://github.com/fiznool/passport-oauth2-refresh)
 
-A Backbone.js plugin to provide access to remote resources which are protected by HTTP Basic Authentication. Developed for the Pro Attend app.
+A passport.js add-on to provide automatic OAuth 2.0 token refreshing.
 
-### [Mobile Backbone Boilerplate](https://github.com/fiznool/mobile-backbone-boilerplate)
+### [body-parser-xml](https://github.com/fiznool/body-parser-xml)
 
-A fork of the popular Backbone Boilerplate library, aimed at mobile devices. Used to develop SafariApps.
+XML parser middleware for express.js.
 
-### [Tappivate](https://github.com/fiznool/tappivate)
+### [express-mongo-sanitize](https://github.com/fiznool/express-mongo-sanitize)
 
-A jQuery/Zepto plugin to make mobile web buttons and list views feel a bit more 'native'. Featured in [JavaScript Weekly issue 100](http://javascriptweekly.com/issues/100).
+Express 4.x middleware which sanitizes user-supplied data to prevent MongoDB Operator Injection.
 
-### [One Liner](https://github.com/fiznool/oneliner)
+### [ng-elastic](https://github.com/fiznool/ng-elastic)
 
-A jQuery/Zepto plugin to shrink text until it fits on one line. Developed for SafariApps to ensure that text in a mobile list view does not wrap to the next line.
+ Angular/Ionic 2 directive to auto expand textareas according to their contents.
 
 * * *
 
@@ -166,29 +188,30 @@ Technical Knowledge
 
 ### Front-End
 
-*   ![HTML5 & CSS3]({{ root_url }}/images/logos/html5_css3.png)
-*   ![SASS]({{ root_url }}/images/logos/sass.png)
-*   ![LESS]({{ root_url }}/images/logos/less.png)
-*   ![JavaScript]({{ root_url }}/images/logos/js.png)
-*   ![jQuery]({{ root_url }}/images/logos/jquery.png)
-*   ![AngularJS]({{ root_url }}/images/logos/angular.png)
-*   ![Backbone.js]({{ root_url }}/images/logos/backbone.png)
-*   ![Bootstrap]({{ root_url }}/images/logos/bootstrap.png)
-*   ![PhoneGap]({{ root_url }}/images/logos/phonegap.png)
+*   HTML5 & CSS3
+*   SASS & LESS
+*   JavaScript
+*   jQuery
+*   Bootstrap
+*   AngularJS & Modern Angular
+*   React & React Native
+*   Redux
+*   Ionic & Cordova
+*   Vue.js
 
 ### Back-End
 
-*   ![JavaScript]({{ root_url }}/images/logos/js.png)
-*   ![Node.js]({{ root_url }}/images/logos/node.png)
-*   ![MongoDB]({{ root_url }}/images/logos/mongo.png)
+*   JavaScript
+*   Node.js
+*   MongoDB
 
 ### Other
 
-*   ![Git]({{ root_url }}/images/logos/git.png)
+*   Git
 
 * * *
 
 Where Next?
 -----------
 
-If you've got this far, well done! Why not [get in touch with me](mailto:tom@fiznool.com) to find out if we can work together?
+Head over to my [blog](blog) for semi-regular updates on what I'm working on. Or if you'd like to get in touch, you can [send me an email](mailto:tom.spencer@studiozeffa.com).
