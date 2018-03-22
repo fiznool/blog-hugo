@@ -61,7 +61,7 @@ highlightjsstyle = "github"
     name = "Hire Me"
     identifier = "hire-me"
     weight = 300
-    url = "/hire-me/"
+    url = "mailto:tom.spencer@studiozeffa.com"
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:slug/"
