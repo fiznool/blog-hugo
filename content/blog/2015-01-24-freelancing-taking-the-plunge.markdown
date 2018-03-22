@@ -1,5 +1,6 @@
 +++
-title = "Freelancing = Taking the Plunge"
+title = "Freelancing: Taking the Plunge"
+slug = "freelancing-taking-the-plunge"
 date = "2015-01-24T08:00:58+00:00"
 comments = true
 categories = ["freelance"]

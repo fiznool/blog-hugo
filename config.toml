@@ -62,3 +62,6 @@ highlightjsstyle = "github"
     identifier = "hire-me"
     weight = 300
     url = "/hire-me/"
+
+[permalinks]
+    blog = "/blog/:year/:month/:day/:slug/"

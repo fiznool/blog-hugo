@@ -1,5 +1,6 @@
 +++
 title = "Running a node.js app in a low-memory environment"
+slug = "running-a-node-dot-js-app-in-a-low-memory-environment"
 date = "2016-10-01T11:33:02+01:00"
 comments = true
 categories = [
