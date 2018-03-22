@@ -43,7 +43,8 @@ email = "tom.spencer@studiozeffa.com"
 [params.extra]
 copyright = "© 2018. Tom Spencer. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
 poweredby = true
-hightlightjs = true
+highlightjs = true
+highlightjsstyle = "github"
 
 ## Main Menu
 [[menu.main]]
