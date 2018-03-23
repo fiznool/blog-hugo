@@ -107,7 +107,7 @@ We'll cover these steps now.
 - Go to the [Java download page](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 - After accepting the license agreement, choose the _Mac OS X_ file under the _Java SE Development Kit_ section to begin the download.
 
-<img src="/img/2017-05-29-a-guide-to-installing-cordova-on-your-mac/java-download-mac.png" alt="Xcode welcome screen" style="max-width: 500px" />
+<img src="/img/2017-05-29-a-guide-to-installing-cordova-on-your-mac/java-download-mac.png" alt="Java download page" style="max-width: 500px" />
 
 - Once the `.dmg` file has downloaded, open it.
 - Double click on the package installer icon. The Java installer should appear - click through to install Java.

@@ -39,11 +39,11 @@ If you are in any doubt, or want to double check, follow these instructions:
 - Select the Search box in the bottom left hand corner of the screen.
 - Type _system_ then select the _System_ item.
 
-<img src="/img/2017-05-30-a-guide-to-installing-cordova-on-windows-10/win-search-system.png" alt="Xcode welcome screen" style="max-width: 300px" />
+<img src="/img/2017-05-30-a-guide-to-installing-cordova-on-windows-10/win-search-system.png" alt="Search for Windows System application" style="max-width: 300px" />
 
 The _System type_ field will show the version of Windows you are running.
 
-<img src="/img/2017-05-30-a-guide-to-installing-cordova-on-windows-10/win-system.png" alt="Xcode welcome screen" style="max-width: 600px" />
+<img src="/img/2017-05-30-a-guide-to-installing-cordova-on-windows-10/win-system.png" alt="Windows System application screenshot" style="max-width: 600px" />
 
 ## Steps
 
@@ -81,7 +81,7 @@ We'll cover these steps now.
 - Go to the [Java download page](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 - After accepting the license agreement, choose the _Windows x64_ file under the _Java SE Development Kit_ section to begin the download.
 
-<img src="/img/2017-05-30-a-guide-to-installing-cordova-on-windows-10/java-download-windows.png" alt="Xcode welcome screen" style="max-width: 500px" />
+<img src="/img/2017-05-30-a-guide-to-installing-cordova-on-windows-10/java-download-windows.png" alt="Java download page" style="max-width: 500px" />
 
 - Once the `.exe` file has downloaded, open it.
 - Double click on the package installer icon. The Java installer should appear - click through to install Java.
@@ -93,7 +93,7 @@ To check that Java was installed correctly, open a terminal window and type `jav
 - Go to the [Android SDK Command Line tools installation page](https://developer.android.com/studio/index.html#command-tools).
 - Click on the zip file for the Windows platform to download the tools to your computer.
 
-<img src="/img/2017-05-30-a-guide-to-installing-cordova-on-windows-10/android-sdktools-download-windows.png" alt="Xcode welcome screen" />
+<img src="/img/2017-05-30-a-guide-to-installing-cordova-on-windows-10/android-sdktools-download-windows.png" alt="Android SDK tools download page" />
 
 - When it has finished downloading, open the Windows File Explorer.
 - Navigate to the `C:\` drive folder. You should see a few folders here, including `Program Files`.
