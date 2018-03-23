@@ -9,11 +9,11 @@ categories = [
 description = "This is the second part of a guide to installing the Cordova framework, and deals with installation on Windows 10."
 +++
 
-This is the second part of a guide to installing the [Cordova](https://cordova.apache.org/) framework, and deals with installation on Windows 10. If you own a Mac, see <a href="{{ root_url }}/blog/2017/05/30/a-guide-to-installing-cordova-on-your-mac/">part one</a>.
+This is the second part of a guide to installing the [Cordova](https://cordova.apache.org/) framework, and deals with installation on Windows 10. If you own a Mac, see [part one]({{< relref "2017-05-29-a-guide-to-installing-cordova-on-your-mac.markdown" >}}) instead.
 
 <!-- more -->
 
-_This guide was last updated on 29th May 2017. If any of the steps below are out of date, please let me know via the comments section below._
+_This guide was last updated on 30th May 2017. If any of the steps below are out of date, please let me know via the comments section below._
 
 ## Prerequisites
 
@@ -39,11 +39,11 @@ If you are in any doubt, or want to double check, follow these instructions:
 - Select the Search box in the bottom left hand corner of the screen.
 - Type _system_ then select the _System_ item.
 
-<img src="{{ root_url }}/images/cordova-guide/win-search-system.png" alt="Xcode welcome screen" class="blog-image" style="max-width: 300px" />
+<img src="/img/2017-05-30-a-guide-to-installing-cordova-on-windows-10/win-search-system.png" alt="Xcode welcome screen" style="max-width: 300px" />
 
 The _System type_ field will show the version of Windows you are running.
 
-<img src="{{ root_url }}/images/cordova-guide/win-system.png" alt="Xcode welcome screen" class="blog-image" style="max-width: 600px" />
+<img src="/img/2017-05-30-a-guide-to-installing-cordova-on-windows-10/win-system.png" alt="Xcode welcome screen" style="max-width: 600px" />
 
 ## Steps
 
@@ -81,7 +81,7 @@ We'll cover these steps now.
 - Go to the [Java download page](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 - After accepting the license agreement, choose the _Windows x64_ file under the _Java SE Development Kit_ section to begin the download.
 
-<img src="{{ root_url }}/images/cordova-guide/java-download-windows.png" alt="Xcode welcome screen" class="blog-image" style="max-width: 500px" />
+<img src="/img/2017-05-30-a-guide-to-installing-cordova-on-windows-10/java-download-windows.png" alt="Xcode welcome screen" style="max-width: 500px" />
 
 - Once the `.exe` file has downloaded, open it.
 - Double click on the package installer icon. The Java installer should appear - click through to install Java.
@@ -93,7 +93,7 @@ To check that Java was installed correctly, open a terminal window and type `jav
 - Go to the [Android SDK Command Line tools installation page](https://developer.android.com/studio/index.html#command-tools).
 - Click on the zip file for the Windows platform to download the tools to your computer.
 
-<img src="{{ root_url }}/images/cordova-guide/android-sdktools-download-windows.png" alt="Xcode welcome screen" class="blog-image" />
+<img src="/img/2017-05-30-a-guide-to-installing-cordova-on-windows-10/android-sdktools-download-windows.png" alt="Xcode welcome screen" />
 
 - When it has finished downloading, open the Windows File Explorer.
 - Navigate to the `C:\` drive folder. You should see a few folders here, including `Program Files`.
@@ -130,7 +130,7 @@ Gradle is a tool that is required by the Android SDK to build Android apps. It u
 - Go to the [gradle releases page](https://gradle.org/releases).
 - Find the `binary-only` version of the latest release and select it to begin the download.
 
-<img src="{{ root_url }}/images/cordova-guide/gradle-download.png" alt="Gradle download" class="blog-image" />
+<img src="/img/2017-05-30-a-guide-to-installing-cordova-on-windows-10/gradle-download.png" alt="Gradle download" />
 
 - When the download has finished, unzip the file.
 - Rename the resulting folder to just `gradle`.
@@ -143,7 +143,7 @@ In order to make this dizzying array of tools available to Cordova, and to us wh
 - Select the Search box in the bottom left hand corner of the screen.
 - Type _environment_ then select _Edit the system environment variables_.
 
-<img src="{{ root_url }}/images/cordova-guide/win-search-environment.png" alt="Windows search environment variables" class="blog-image" style="max-width: 300px" />
+<img src="/img/2017-05-30-a-guide-to-installing-cordova-on-windows-10/win-search-environment.png" alt="Windows search environment variables" style="max-width: 300px" />
 
 - The _System Properties_ pane will appear. Select the _Environment Variables..._ button.
 
@@ -153,13 +153,13 @@ We need to set three environment variables in total.
 
 - Under the _System variables_ section, click the _New..._ button.
 
-<img src="{{ root_url }}/images/cordova-guide/win-env-var-new.png" alt="Windows new environment variable" class="blog-image" style="max-width: 500px" />
+<img src="/img/2017-05-30-a-guide-to-installing-cordova-on-windows-10/win-env-var-new.png" alt="Windows new environment variable" style="max-width: 500px" />
 
 - In the _Variable Name_ box, type `JAVA_HOME`.
 - Select the _Browse Directory_ button. In the resulting folder browser pane, expand _This PC_ -> _WINDOWS (C:)_ -> _Program Files_ -> _Java_ and choose the folder beginning with `jdk`. Select OK.
 - Your new environment variable should resemble the following:
 
-<img src="{{ root_url }}/images/cordova-guide/win-env-var-java.png" alt="Windows Java environment variable" class="blog-image" style="max-width: 500px" />
+<img src="/img/2017-05-30-a-guide-to-installing-cordova-on-windows-10/win-env-var-java.png" alt="Windows Java environment variable" style="max-width: 500px" />
 
 - Select _OK_ to create the environment variable.
 
@@ -182,7 +182,7 @@ We need to set three environment variables in total.
 %ANDROID_HOME%\tools\bin
 ```
 
-<img src="{{ root_url }}/images/cordova-guide/win-env-var-path.png" alt="Windows Path environment variable" class="blog-image" style="max-width: 500px" />
+<img src="/img/2017-05-30-a-guide-to-installing-cordova-on-windows-10/win-env-var-path.png" alt="Windows Path environment variable" style="max-width: 500px" />
 
 - Click _OK_ and then _OK_ again to close the panes.
 
@@ -257,7 +257,7 @@ cordova emulate android
 
 If all is well, the emulator should launch and display the app:
 
-<img src="{{ root_url }}/images/cordova-guide/android-emulator-windows.png" alt="Android emulator running Cordova app" class="blog-image" style="max-width: 300px" />
+<img src="/img/2017-05-30-a-guide-to-installing-cordova-on-windows-10/android-emulator-windows.png" alt="Android emulator running Cordova app" style="max-width: 300px" />
 
 _Note_: If you see an error in the terminal such as `Intel virtualization technology (vt,vt-x) is not enabled` when the emulator is starting, this means that your computer may not support the Android emulator. If you know how to access your computer's BIOS, you can try to enable Hardware Virtualization. Otherwise, don't worry about it - we'll deploy to a real device instead.
 
@@ -273,7 +273,7 @@ To begin, you need to configure your device to accept deployments from your comp
 - Tap on the _Build number_ item seven times. This will enable a new menu item _Developer Options_ in the main Settings app.
 - Go back to the Settings app and tap on the new _Developer Options_ item. You should see a screen resembling the following:
 
-<img src="{{ root_url }}/images/cordova-guide/android-developer-options.png" alt="Android developer options screen" class="blog-image" style="max-width: 350px" />
+<img src="/img/2017-05-30-a-guide-to-installing-cordova-on-windows-10/android-developer-options.png" alt="Android developer options screen" style="max-width: 350px" />
 
 - If not enabled, tap the toggle switch to enable 'Developer Mode'.
 - Scroll down and find the item 'USB Debugging' and tap the toggle switch to enable USB Debugging.
@@ -286,7 +286,7 @@ To continue:
 - Connect your device to your computer with the USB cable.
 - You should see a message to 'Allow USB Debugging'. Check the 'Always allow from this computer' checkbox and tap 'OK'.
 
-<img src="{{ root_url }}/images/cordova-guide/android-usb-debugging.png" alt="Android allow USB debugging alert" class="blog-image" style="max-width: 350px" />
+<img src="/img/2017-05-30-a-guide-to-installing-cordova-on-windows-10/android-usb-debugging.png" alt="Android allow USB debugging alert" style="max-width: 350px" />
 
 - Open a Git Bash window and type `adb devices`. You should see your device listed as attached in the terminal.
 

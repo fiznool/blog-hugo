@@ -80,11 +80,11 @@ Open Xcode. You should see the _Welcome to Xcode_ screen.
 
 In the top menu, press `Xcode -> Preferences`.
 
-<img src="{{ root_url }}/images/cordova-guide/xcode-welcome.png" alt="Xcode Welcome screen" class="blog-image" />
+<img src="/img/2017-05-29-a-guide-to-installing-cordova-on-your-mac/xcode-welcome.png" alt="Xcode Welcome screen" />
 
 In the _Accounts_ tab, press `+ -> Add Apple ID`.
 
-<img src="{{ root_url }}/images/cordova-guide/xcode-add-account.png" alt="Xcode Add Account screen" class="blog-image" />
+<img src="/img/2017-05-29-a-guide-to-installing-cordova-on-your-mac/xcode-add-account.png" alt="Xcode Add Account screen" />
 
 Sign in with your Apple ID. When complete, your account will appear in the list. You can now close the Preferences pane.
 
@@ -107,7 +107,7 @@ We'll cover these steps now.
 - Go to the [Java download page](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 - After accepting the license agreement, choose the _Mac OS X_ file under the _Java SE Development Kit_ section to begin the download.
 
-<img src="{{ root_url }}/images/cordova-guide/java-download-mac.png" alt="Xcode welcome screen" class="blog-image" style="max-width: 500px" />
+<img src="/img/2017-05-29-a-guide-to-installing-cordova-on-your-mac/java-download-mac.png" alt="Xcode welcome screen" style="max-width: 500px" />
 
 - Once the `.dmg` file has downloaded, open it.
 - Double click on the package installer icon. The Java installer should appear - click through to install Java.
@@ -119,7 +119,7 @@ To check that Java was installed correctly, open a terminal window and type `jav
 - Go to the [Android SDK Command Line tools installation page](https://developer.android.com/studio/index.html#command-tools).
 - Click on the zip file for the Mac platform to download the tools to your Mac.
 
-<img src="{{ root_url }}/images/cordova-guide/android-sdktools-download-mac.png" alt="Android SDK tools download" class="blog-image" />
+<img src="/img/2017-05-29-a-guide-to-installing-cordova-on-your-mac/android-sdktools-download-mac.png" alt="Android SDK tools download" />
 
 - When it has finished downloading, open the zip file to extract the contents.
 - Create a new folder in your home directory named `android`.
@@ -155,7 +155,7 @@ Gradle is a tool that is required by the Android SDK to build Android apps. It u
 - Go to the [gradle releases page](https://gradle.org/releases).
 - Find the `binary-only` version of the latest release and select it to begin the download.
 
-<img src="{{ root_url }}/images/cordova-guide/gradle-download.png" alt="Gradle download" class="blog-image" />
+<img src="/img/2017-05-29-a-guide-to-installing-cordova-on-your-mac/gradle-download.png" alt="Gradle download" />
 
 - When the download has finished, unzip the file.
 - Rename the resulting folder to just `gradle`.
@@ -263,7 +263,7 @@ cordova emulate ios
 
 The iOS simulator should automatically launch. When it has finished initialising, the Cordova Hello World app should be displayed:
 
-<img src="{{ root_url }}/images/cordova-guide/iphone-simulator.png" alt="iPhone simulator running Cordova app" class="blog-image" style="max-width: 500px" />
+<img src="/img/2017-05-29-a-guide-to-installing-cordova-on-your-mac/iphone-simulator.png" alt="iPhone simulator running Cordova app" style="max-width: 500px" />
 
 #### Android emulator
 
@@ -275,7 +275,7 @@ cordova emulate android
 
 The emulator should launch and display the app:
 
-<img src="{{ root_url }}/images/cordova-guide/android-emulator.png" alt="Android emulator running Cordova app" class="blog-image" style="max-width: 500px" />
+<img src="/img/2017-05-29-a-guide-to-installing-cordova-on-your-mac/android-emulator.png" alt="Android emulator running Cordova app" style="max-width: 500px" />
 
 _Note_: If you see an error in the terminal such as `Failed to sync vcpu reg` when the emulator is starting, this means that the emulator cannot start its virtual machine. To solve this problem, make sure you aren't running any other virtual machines on your Mac. This includes Virtualbox (or Vagrant), VMWare and Docker. Close all of these applications before trying again.
 
@@ -309,7 +309,7 @@ The first time you deploy the app, you'll need to use Xcode. Carry out the follo
 - Connect your iOS device to your Mac with a lightning cable. (iTunes might appear - you can safely close it.)
 - If this is the first time you've connected your device to your Mac, you may see a message on your device, _Trust This Computer?_ Tap `Trust`.
 
-<img src="{{ root_url }}/images/cordova-guide/iphone-trust-this-computer.jpg" alt="iPhone: trust this computer alert" class="blog-image" style="max-width: 300px" />
+<img src="/img/2017-05-29-a-guide-to-installing-cordova-on-your-mac/iphone-trust-this-computer.jpg" alt="iPhone: trust this computer alert" style="max-width: 300px" />
 
 - Open a terminal window and change to your project's root directory.
 - Type the following:
@@ -321,11 +321,11 @@ open platforms/ios/HelloCordova.xcodeproj
 
 - In the resulting Xcode window, ensure the Project navigator pane is displayed by clicking the folder icon in the top left hand corner.
 
-<img src="{{ root_url }}/images/cordova-guide/xcode-folder-icon.png" alt="Xcode project navigator button" class="blog-image"  style="max-width: 250px"/>
+<img src="/img/2017-05-29-a-guide-to-installing-cordova-on-your-mac/xcode-folder-icon.png" alt="Xcode project navigator button"  style="max-width: 250px"/>
 
 - Click on the _HelloCordova_ project. The middle pane will reveal the Signing section. You should see a message `Signing for "HelloCordova" requires a development team`.
 
-<img src="{{ root_url }}/images/cordova-guide/xcode-project.png" alt="Xcode signing section" class="blog-image" />
+<img src="/img/2017-05-29-a-guide-to-installing-cordova-on-your-mac/xcode-project.png" alt="Xcode signing section" />
 
 - In the _Signing_ section, from the _Team_ dropdown, choose the entry that resembles _{Your Name} (Personal Team)_. Xcode will 'repair' and 'provision' your app to allow it to be deployed to your device.
 
@@ -339,7 +339,7 @@ Now that the app has been provisioned, it can be deployed to your device.
 - From the _active scheme_ menu (to the right of the 'play' button in the top left hand corner), change the scheme from _iPhone 7 Plus_ to your iOS device.
 - Press the 'Play' button.
 
-<img src="{{ root_url }}/images/cordova-guide/xcode-select-device.png" alt="Xcode select device" class="blog-image" />
+<img src="/img/2017-05-29-a-guide-to-installing-cordova-on-your-mac/xcode-select-device.png" alt="Xcode select device" />
 
 _Note_: before the app can be deployed, you may need to wait for the iOS device to 'finish processing symbol files'. This can take a few minutes.
 
@@ -373,7 +373,7 @@ To begin, you need to configure your device to accept deployments from your Mac:
 - Tap on the _Build number_ item seven times. This will enable a new menu item _Developer Options_ in the main Settings app.
 - Go back to the Settings app and tap on the new _Developer Options_ item. You should see a screen resembling the following:
 
-<img src="{{ root_url }}/images/cordova-guide/android-developer-options.png" alt="Android developer options screen" class="blog-image" style="max-width: 350px" />
+<img src="/img/2017-05-29-a-guide-to-installing-cordova-on-your-mac/android-developer-options.png" alt="Android developer options screen" style="max-width: 350px" />
 
 - If not enabled, tap the toggle switch to enable 'Developer Mode'.
 - Scroll down and find the item 'USB Debugging' and tap the toggle switch to enable USB Debugging.
@@ -386,7 +386,7 @@ To continue:
 - Connect your device to your Mac with the USB cable.
 - You should see a message to 'Allow USB Debugging'. Check the 'Always allow from this computer' checkbox and tap 'OK'.
 
-<img src="{{ root_url }}/images/cordova-guide/android-usb-debugging.png" alt="Android allow USB debugging alert" class="blog-image" style="max-width: 350px" />
+<img src="/img/2017-05-29-a-guide-to-installing-cordova-on-your-mac/android-usb-debugging.png" alt="Android allow USB debugging alert" style="max-width: 350px" />
 
 - Open a terminal window and type `adb devices`. You should see your device listed as attached in the terminal.
 
