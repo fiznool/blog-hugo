@@ -75,7 +75,7 @@ Garbage collection in v8 is an expensive process, as it is employed via a _stop 
 
 ### More Information
 
-If this has peaked your interest, you can read more about v8's memory management process [here](https://strongloop.com/strongblog/node-js-performance-garbage-collection/).
+If this has piqued your interest, you can read more about v8's memory management process [here](https://strongloop.com/strongblog/node-js-performance-garbage-collection/).
 
 ## Configuration
 
