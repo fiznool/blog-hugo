@@ -63,15 +63,16 @@ A smartphone app to track bumblebee populations in the UK, for [iPhone](https://
 *   Surveys are submitted to a central server, where researchers confirm the categorisation of the bees.
 *   Prototype originally devised for client using wireframe screens to capture detailed requirements.
 *   App was built using the Ionic Framework, with custom designs implemented from supplied Photoshop comps.
-*   BBC ran [a story on the app](https://drive.google.com/file/d/0B7Ph-ulzuoOrdTV4RllXOE5SX2c/view) which aired on the local evening news.
+*   The BBC ran [a story on the app](https://drive.google.com/file/d/0B7Ph-ulzuoOrdTV4RllXOE5SX2c/view) which aired on the local evening news.
 
 ### [Flow XO](http://flowxo.com)
 
-A SaaS platform to connect together existing cloud apps into a 'workflow', passing data from each stage to the next.
+A SaaS platform for building chatbot workflows, without any coding knowledge needed.
 
 *   A greenfield project which was built from the ground-up.
 *   Worked from requirements and wireframes to architect and build the core app and corresponding admin UI.
-*   Collaborated with other developers to create an SDK for building 'services', which connect to individual cloud apps.
+*   Collaborated with other developers to create connectors to various different chatbot platforms, including Facebook Messenger, Slack and Telegram.
+*   Built an SDK to allow other cloud apps to connect to the platform.
 *   Built using the MEAN stack - MongoDB, Express, Angular.js and Node.js, using Test-Driven Development.
 *   Workflow logic distributed via a message queue and deployed to Heroku to allow for horizontal scaling.
 *   Integrated with [Recurly](https://recurly.com) to handle recurring subscription payments.
@@ -121,7 +122,7 @@ For more details on my past experience, please refer to [my LinkedIn profile](ht
 
 #### April 2013 - Present
 
-Designing, architecting and developing web and mobile applications for a number of clients, and offering training in software development [Available for hire](mailto:tom@studiozeffa.com) for your next project or training course.
+Designing, architecting and developing web and mobile applications for a number of clients, and offering training in software development. [Available for hire](mailto:tom@studiozeffa.com) for your next project or training course.
 
 ### Head of Mobile Web, [Mubaloo](http://mubaloo.com)
 
