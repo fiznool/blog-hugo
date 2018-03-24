@@ -1,6 +1,6 @@
 +++
 categories = ["about"]
-comments = false
+showcomments = false
 date = "2018-03-21T16:06:01Z"
 draft = false
 slug = ""
