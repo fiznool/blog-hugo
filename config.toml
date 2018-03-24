@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "/"
+baseurl = "https://fiznool.com"
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
