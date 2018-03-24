@@ -9,6 +9,8 @@ categories = [
 description = "In this article, I'm going to show you how you can replicate npm private hosting using GitHub or Bitbucket, and access these modules from your deployment server and/or Heroku."
 +++
 
+_Note: this article was written in May 2015. Much has changed since then, so the below may no longer be relevant. I will look to publish a revised post soon._
+
 npm has recently unleashed [private modules](https://www.npmjs.com/private-modules) to world. This allows you to publish a node module to your own private registry, and install it via `npm install` as normal. I think this is a good move from npm, and with a price of only $7/user/month, it doesn't break the bank.
 
 If you are already using GitHub to host your private module's source code, you might however be wondering whether paying for another service is worth it. In some situations, using a private npm registry is the correct choice, such as if you need strict semver adherence, or need to separate your source code hosting from your production module hosting. In many cases, however, you can get away without using npm for hosting your private modules.
