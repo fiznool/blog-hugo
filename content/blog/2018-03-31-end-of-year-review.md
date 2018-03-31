@@ -7,7 +7,7 @@ categories = [
 description = "My financial year ends today, and so I thought I'd take a moment to review the company's progress over the past year."
 +++
 
-My services are provided through a limited company, Studio Zeffa. The company's financial year ends today, and so I thought I'd take a moment to I'd take a moment to review the company's progress during this time.
+My services are provided through a limited company, Studio Zeffa. The company's financial year ends today, and so I thought I'd take a moment to review the company's progress during this time.
 
 ### Projects
 
