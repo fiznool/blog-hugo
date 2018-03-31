@@ -1,16 +1,17 @@
-# Hugo Goa Demo
+# fiznool.com
 
 ## About
 
-This site demonstrates the use of the [Hugo Goa Theme](https://github.com/shenoybr/hugo-goa) by [@shenoybr](https://github.com/shenoybr).
+This is the source code for the site currently hosted at https://www.fiznool.com.
 
-## Usage
+The code allows a static website to be generated using the [Hugo](https://gohugo.io) static site generator.
 
-* Install [Hugo](gohugo.io)
-* git clone --recursive https://github.com/shenoybr/hugo-goa-demo
-* Run `hugo server -w -v` from the root directory
-* Site will be visible at `localhost:1313/hugo-goa-demo`
+## Development
 
-## License
+- `hugo server`: run a development server. Site will be available at http://localhost:1313.
+- `hugo new blog/<kebab-case-post-name>.md`: create a new blog post. Name of post will be generated from the kebab-case name.
 
-Licensed under the [MIT](https://opensource.org/licenses/MIT) License. See the [LICENSE](https://raw.githubusercontent.com/shenoybr/hugo-goa-demo/master/LICENSE) file for more details.
+## Deployment
+
+The blog is hosted on Netlify. Push a commit to the master branch and the site will be automatically built and deployed.
+
