@@ -65,3 +65,6 @@ highlightjsstyle = "github"
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:slug/"
+
+[blackfriday]
+    fractions = false
