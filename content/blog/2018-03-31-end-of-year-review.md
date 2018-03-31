@@ -1,7 +1,6 @@
 +++
 title = "End of Year Review"
 date = 2018-03-31T21:02:44+01:00
-draft = true
 categories = [
   "freelance"
 ]
