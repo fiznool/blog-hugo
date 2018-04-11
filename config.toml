@@ -28,8 +28,8 @@ dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
 [params.meta]
-description = "Simple minimalist theme"
-keywords = "minimalist,blog,goa,hugo,developer"
+description = "Personal website and portfolio of Tom Spencer, a Bristol-based JavaScript Consultant."
+keywords = "software,developer,web,mobile,apps,portfolio,javascript,react,node,bristol"
 
 ## Social Accounts
 [params.social]
