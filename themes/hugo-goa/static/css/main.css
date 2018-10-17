@@ -73,6 +73,8 @@ div.content
 {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 18px;
     font-weight: 300;
     color: #555;
 }
