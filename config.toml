@@ -20,10 +20,9 @@ googleAnalytics = "UA-35508451-1"
 enableRobotsTXT = true
 
 # Syntax highlighting
-pygmentsCodeFences = true
-pygmentsStyle = "friendly"
-# Use inline styles, no need for CSS compilation
-pygmentsUseClasses = false
+pygmentsCodeFences = true   # Enable triple backtick 'code fences' markdown
+pygmentsUseClasses = false  # Add inline styles, no need to compile extra CSS
+pygmentsStyle = "friendly"  # Change the highlighting colour scheme
 
 ## Site Settings
 [params]
