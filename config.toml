@@ -22,10 +22,8 @@ enableRobotsTXT = true
 # Syntax highlighting
 pygmentsCodeFences = true
 pygmentsStyle = "friendly"
-pygmentsOptions = ""
-# Use the Chroma stylesheet
-pygmentsUseClasses = true
-pygmentsUseClassic = false
+# Use inline styles, no need for CSS compilation
+pygmentsUseClasses = false
 
 ## Site Settings
 [params]
