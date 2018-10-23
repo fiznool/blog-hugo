@@ -45,6 +45,10 @@ copyright = "© 2018. Tom Spencer. [Some Rights Reserved](http://creativecommons
 poweredby = true
 highlightjs = true
 highlightjsstyle = "github"
+highlightjslanguages = [
+    "javascript",
+    "typescript"
+]
 
 ## Main Menu
 [[menu.main]]
