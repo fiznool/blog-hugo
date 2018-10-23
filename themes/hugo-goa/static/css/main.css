@@ -264,6 +264,37 @@ header.title
     margin-top: 20px;
     padding: 0 15px;
 }
+.highlight {
+    position: relative;
+}
+.highlight-copy-btn {
+    border: 0;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    border-radius: 4px;
+    padding: 2px 10px;
+    font-size: 0.8em;
+    line-height: 1.8;
+    color: #fff;
+    background-color: #746699;
+    min-width: 70px;
+    text-align: center;
+    display: none;  /* Only show on wider viewports */
+}
+.highlight-copy-btn:hover {
+    background-color: #635683;
+}
+
+@media (min-width: 768px) {
+    .highlight-copy-btn {
+        display: inline-block;
+    }
+    .highlight code {
+        margin-right: 75px;
+    }
+}
+
 @media (max-width: 991px)
 {
     .header

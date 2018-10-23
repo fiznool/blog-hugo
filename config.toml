@@ -19,6 +19,10 @@ disqusShortname = "fiznool-blog"
 googleAnalytics = "UA-35508451-1"
 enableRobotsTXT = true
 
+# Syntax highlighting
+pygmentsCodefences = true
+pygmentsStyle = "friendly"
+
 ## Site Settings
 [params]
 author = "Tom Spencer"
@@ -43,12 +47,6 @@ email = "tom.spencer@studiozeffa.com"
 [params.extra]
 copyright = "© 2018. Tom Spencer. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
 poweredby = true
-highlightjs = true
-highlightjsstyle = "github"
-highlightjslanguages = [
-    "javascript",
-    "typescript"
-]
 
 ## Main Menu
 [[menu.main]]
