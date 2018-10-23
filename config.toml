@@ -20,8 +20,12 @@ googleAnalytics = "UA-35508451-1"
 enableRobotsTXT = true
 
 # Syntax highlighting
-pygmentsCodefences = true
+pygmentsCodeFences = true
 pygmentsStyle = "friendly"
+pygmentsOptions = ""
+# Use the Chroma stylesheet
+pygmentsUseClasses = true
+pygmentsUseClassic = false
 
 ## Site Settings
 [params]
