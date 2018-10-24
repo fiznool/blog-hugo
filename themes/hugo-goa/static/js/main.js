@@ -8,12 +8,26 @@
     )
     document.querySelector('head').appendChild(msViewportStyle)
   }
+})();
 
-  function flashCopyMessage(btn, msg) {
-    btn.textContent = msg;
+(function() {
+  function flashCopyMessage(el, msg) {
+    el.textContent = msg;
     setTimeout(function() {
-      btn.textContent = "Copy";
+      el.textContent = "Copy";
     }, 1000);
+  }
+
+  function clickToCopy(el, textToCopy) {
+    new ClipboardJS(el, {
+      text: function() {
+        return textToCopy;
+      }
+    }).on('success', function() {
+      flashCopyMessage(el, 'Copied!')
+    }).on('error', function() {
+      flashCopyMessage(el, 'Not Supported :(')
+    });
   }
 
   function addCopyButton(containerEl) {
@@ -24,15 +38,7 @@
     copyBtn.textContent = "Copy";
     containerEl.append(copyBtn);
 
-    new ClipboardJS(copyBtn, {
-      text: function() {
-        return code;
-      }
-    }).on('success', function() {
-      flashCopyMessage(copyBtn, 'Copied!')
-    }).on('error', function() {
-      flashCopyMessage(copyBtn, 'Not Supported :(')
-    });
+    clickToCopy(copyBtn, code);
   }
 
   // Add copy button to code blocks

@@ -1,7 +1,6 @@
 ---
 title: "Deploying a Hugo-powered site to Netlify with source code syntax highlighting"
-date: 2018-10-23T13:12:32+01:00
-draft: true
+date: 2018-08-03T13:12:32+01:00
 description: "Hugo makes it really easy to add syntax highlighting to your code snippets. In this post I'll discuss how to enable this feature, and how to configure Netlify to build your site with nicely highlighted code."
 ---
 
@@ -23,7 +22,9 @@ You can now add code using the triple backtick 'code fence' markdown syntax, as 
 
     const App = () => (
       <div class="app"></div>
-    )
+    );
+
+    export default App;
     ```
 
 The text after the triple backtick governs the code language, which is used to determine the keywords that should be highlighted. In this case, I'm using the `jsx` language to tell the syntax highlighter to treat the code as JavaScript with JSX - find all of the supported languages on the [hugo docs page](https://gohugo.io/content-management/syntax-highlighting/#list-of-chroma-highlighting-languages).
@@ -35,7 +36,9 @@ import React from 'react';
 
 const App = () => (
   <div class="app"></div>
-)
+);
+
+export default App;
 ```
 
 You can also customise the colour scheme used for highlighting the keywords by adding the following to your `config.toml`:
