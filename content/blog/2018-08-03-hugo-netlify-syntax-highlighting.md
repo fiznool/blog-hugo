@@ -1,6 +1,9 @@
 ---
 title: "Deploying a Hugo-powered site to Netlify with source code syntax highlighting"
 date: 2018-08-03T13:12:32+01:00
+categories: [
+  "writing"
+]
 description: "Hugo makes it really easy to add syntax highlighting to your code snippets. In this post I'll discuss how to enable this feature, and how to configure Netlify to build your site with nicely highlighted code."
 ---
 

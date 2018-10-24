@@ -268,10 +268,10 @@ header.title
     position: relative;
 }
 .highlight-copy-btn {
-    border: 0;
     position: absolute;
     bottom: 7px;
     right: 7px;
+    border: 0;
     border-radius: 4px;
     padding: 1px;
     font-size: 0.7em;
@@ -290,8 +290,8 @@ header.title
     .highlight-copy-btn {
         display: inline-block;
     }
-    .highlight code {
-        margin-right: 60px;
+    .highlight pre {
+        padding-right: 75px;
     }
 }
 
