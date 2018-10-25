@@ -39,6 +39,13 @@ html
     min-height: 100%;
     margin: 0;
 }
+figure {
+    text-align: center;
+}
+figcaption {
+    font-size: 90%;
+    font-style: italic;
+}
 .author
 {
     color: #444;
@@ -81,7 +88,7 @@ div.content
 .content img {
     border: 2px solid #eee;
     padding: 8px;
-    width: 100%;
+    max-width: 100%;
 }
 .copyright
 {
@@ -286,6 +293,20 @@ header.title
     background-color: #666;
 }
 
+@media (min-width: 420px) {
+    .multi-figures {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
+    }
+    .multi-figures figure {
+        margin: 0 10px;
+    }
+}
+
 @media (min-width: 768px) {
     .highlight-copy-btn {
         display: inline-block;
@@ -305,7 +326,6 @@ header.title
     .list
     {
         font-family: 'Roboto', sans-serif;
-
         margin-top: 30px;
     }
 }
