@@ -12,8 +12,6 @@ publishdir = "public"
 author = "Tom Spencer"
 title = "Tom Spencer"
 
-theme = "hugo-goa"
-
 ## Hugo Built-in Features
 disqusShortname = "fiznool-blog"
 googleAnalytics = "UA-35508451-1"
