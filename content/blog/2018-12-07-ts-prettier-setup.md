@@ -1,6 +1,6 @@
 ---
 title: "VSCode + TypeScript + Prettier = Happy Developer"
-date: 2018-09-14T13:12:32+01:00
+date: 2018-12-07T13:12:32+01:00
 categories: [
   "typescript",
   "tooling",
@@ -18,10 +18,10 @@ This explosion in popularity has resulted in a wide ecosystem of tooling to make
 
 Here's the lineup:
 
-1) [VSCode](https://code.visualstudio.com), an open source code editor with a focus on JavaScript development.
-2) [TypeScript](https://www.typescriptlang.org), a typed superset of JavaScript which allows you to write JavaScript code with static types.
-3) [TSLint](https://palantir.github.io/tslint/), a linting tool to ensure that your TypeScript code is written to best practices.
-4) [Prettier](https://prettier.io), a formatting tool which automatically rewrites your code to meet a specific coding style.
+1. [VSCode](https://code.visualstudio.com), an open source code editor with a focus on JavaScript development.
+2. [TypeScript](https://www.typescriptlang.org), a typed superset of JavaScript which allows you to write JavaScript code with static types.
+3. [TSLint](https://palantir.github.io/tslint/), a linting tool to ensure that your TypeScript code is written to best practices.
+4. [Prettier](https://prettier.io), a formatting tool which automatically rewrites your code to meet a specific coding style.
 
 ## Codebase
 
@@ -71,7 +71,15 @@ In the terminal, make sure you are inside the `ts-prettier-example` repository, 
 npm install -D typescript
 
 # Initialise a TypeScript config file
-node_modules/.bin/tsc --init --target es2018 --module commonjs --sourceMap --rootDir src --outDir lib --strict --esModuleInterop --resolveJsonModule
+node_modules/.bin/tsc --init \
+  --target es2018 \
+  --module commonjs \
+  --sourceMap \
+  --rootDir src \
+  --outDir lib \
+  --strict \
+  --esModuleInterop \
+  --resolveJsonModule
 ```
 
 After running these commands, you will have a new `tsconfig.json` file in your codebase, which is used by TypeScript when your code is compiled to plain JavaScript.
