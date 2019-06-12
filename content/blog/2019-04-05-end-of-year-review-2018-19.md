@@ -1,5 +1,5 @@
 +++
-title = "End of Year Review 2018/19"
+title = "End of Year Review 2018-19"
 date = 2019-05-04T15:36:52+01:00
 categories = [
   "freelance"
@@ -7,7 +7,7 @@ categories = [
 description = "It's that time of the year when I take the time to look back on how my business has performed."
 +++
 
-I work as a front-end web and JavaScript developer on a contract basis. My services are provided through a limited company, Studio Zeffa. Since the company's financial year has just concluded, I'm continuing the [tradition from last year]({{< relref "2018-03-31-end-of-year-review.md" >}}) and writing a post to review the past year's work.
+I work as a front-end web and JavaScript developer on a contract basis. My services are provided through a limited company, Studio Zeffa. Since the company's financial year has just concluded, I'm continuing the [tradition from last year]({{< relref "2018-03-31-end-of-year-review-2017-18.md" >}}) and writing a post to review the past year's work.
 
 ### Projects
 
