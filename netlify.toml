@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "*"
+  to = "https://www.tomspencer.dev/:splat"
+  status = 301
+  force = true
+
